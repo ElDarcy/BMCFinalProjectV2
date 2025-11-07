@@ -100,7 +100,6 @@ class ProductDetailScreen extends StatelessWidget {
                         ),
                       );
 
-                      // ✅ Navigate to Cart Screen immediately
                       Navigator.push(
                         context,
                         MaterialPageRoute(

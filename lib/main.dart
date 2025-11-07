@@ -17,7 +17,6 @@ void main() async {
   await FirebaseAuth.instance.setPersistence(Persistence.LOCAL);
 
   runApp(
-    // ✅ Wrap the app with ChangeNotifierProvider
     ChangeNotifierProvider(
       create: (context) => CartProvider(), // create one instance of CartProvider
       child: const MyApp(),
